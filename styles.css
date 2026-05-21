@@ -29,7 +29,22 @@ body {
         sans-serif;
     line-height: 1.6;
     color: #c2c2c2;
-    background-color: #1f204a;
+    --text-color: #c31717;
+    --text-alt: #573ecf;
+    background-color: #ffffff;
     --card-primary: #000000;
-    --border-primary: #afbfef;
+    --border-primary: #7a7a7a;
+}
+
+header {
+    background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-primary) 100%);
+    padding: var(--space-sm) 0;
+    box-shadow: 0 2rem 12rem var(--color);
+}
+
+/* Flexbox for the header */
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
