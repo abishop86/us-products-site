@@ -29,17 +29,19 @@ body {
         sans-serif;
     line-height: 1.6;
     color: #c31717;
-    background-color: #ffffff;
-    --text-alt: #573ecf;
+    --background-color: #ffffff;
+    --text-alt: #3b2799;
     --box-color: #c2c2c2;
     --card-primary: #000000;
     --border-primary: #7a7a7a;
 }
 
 header {
-    background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-primary) 100%);
+    background: linear-gradient(135deg, var(--text-alt) 0%, var(--text-alt) 100%);
+    color: var(--background-color);
     padding: var(--space-sm) 0;
     box-shadow: 0 2rem 12rem var(--color);
+    text-align: center;
 }
 
 /* Flexbox for the header */
@@ -47,4 +49,9 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.stripe {
+    background: color;
+    text: var(--background-color);
 }
