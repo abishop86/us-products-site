@@ -67,10 +67,11 @@ header .container {
 /* Card styling */
 .card {
     flex: 1 1 3rem;
-    background: var(--card-primary);
+    background: var(--stripe-color);
+    color: var(--background-color);
     padding: var(--space-md);
     border-radius: var(--radius-md);
-    border: 0.5rem solid var(--border-primary);
+    border: 0.5rem solid var(--box-color);
     transition: all 0.3s ease;
 }
 
