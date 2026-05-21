@@ -1,1 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --font-heading: "Raleway", raleway;
+    --font-body: "Raleway", raleway;
+
+    --fs-body: 400;
+    --fs-accent: 900;
+    --fs-heading: 700;
+
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 2rem;
+}
+
+/* Width settings */
+.container {
+    max-width: 92.5%;
+    margin: 0 auto;
+    padding: 0 var(--space-md);
+}
+
+/* Text, Colors & other styling */
+body {
+    font-family:
+        Raleway,
+        system-ui,
+        -apple-system,
+        sans-serif;
+    line-height: 1.6;
+    color: #c2c2c2;
+    background-color: #1f204a;
+    --card-primary: #000000;
+    --border-primary: #afbfef;
+}
