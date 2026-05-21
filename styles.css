@@ -56,3 +56,40 @@ header .container {
     background: var(--stripe-color);
     color: var(--background-color);
 }
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    /* Adjusts the cards to look better on smaller screens */
+    gap: var(--space-md);
+}
+
+/* Card styling */
+.card {
+    flex: 1 1 3rem;
+    background: var(--card-primary);
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 0.5rem solid var(--border-primary);
+    transition: all 0.3s ease;
+}
+
+/* Styling of the card when selected */
+.card:hover {
+    transform: translateY(-0.4rem);
+    box-shadow: 0 2rem 4rem var(--border-color);
+    border-color: var(--color);
+}
+
+/* Card title styling */
+.card h4 {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    margin-bottom: var(--space-xs);
+}
+
+/* Makes the card unique */
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
