@@ -55,6 +55,7 @@ header .container {
 .stripe {
     background: var(--stripe-color);
     color: var(--background-color);
+    padding: var(--space-xs);
 }
 
 .cards {
@@ -71,7 +72,7 @@ header .container {
     color: var(--background-color);
     padding: var(--space-md);
     border-radius: var(--radius-md);
-    border: 0.5rem solid var(--box-color);
+    border: 0.5rem solid var(--card-primary);
     transition: all 0.3s ease;
 }
 
@@ -79,7 +80,7 @@ header .container {
 .card:hover {
     transform: translateY(-0.4rem);
     box-shadow: 0 2rem 4rem var(--border-color);
-    border-color: var(--color);
+    border-color: var(--box-color);
 }
 
 /* Card title styling */
