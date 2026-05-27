@@ -37,6 +37,22 @@ body {
     --stripe-color: #c31717;
 }
 
+body.light {
+    background-color: #c31717;
+    color: #ffffff;
+}
+
+/* "Light mode" button styling */
+#light-mode-toggle {
+    cursor: pointer;
+    padding: 0.4rem 0.8rem;
+    border: 0.1rem solid currentColor;
+    background: transparent;
+    color: inherit;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+}
+
 header {
     background: linear-gradient(135deg, var(--text-alt) 0%, var(--text-alt) 100%);
     color: var(--background-color);
