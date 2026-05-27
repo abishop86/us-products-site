@@ -11,7 +11,7 @@
             <header>
                 <h1>American Products</h1>
                 <p>Online database of American-made products.</p>
-                <button id="light-mode-toggle">Light mode</button>
+                <button id="dark-mode-toggle">Dark mode</button>
             </header>
             <main>
                 <h2>About Us</h2>
@@ -88,13 +88,13 @@
             </main>
         </div>
         <script>
-            const toggleButton = document.getElementById("light-mode-toggle");
+            const toggleButton = document.getElementById("dark-mode-toggle");
             toggleButton.addEventListener("click", function () {
-                document.body.classList.toggle("light");
-                if (document.body.classList.contains("light")) {
-                    toggleButton.textContent = "Dark mode";
-                } else {
+                document.body.classList.toggle("dark");
+                if (document.body.classList.contains("dark")) {
                     toggleButton.textContent = "Light mode";
+                } else {
+                    toggleButton.textContent = "Dark mode";
                 }
             });
         </script>

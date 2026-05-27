@@ -37,13 +37,13 @@ body {
     --stripe-color: #c31717;
 }
 
-body.light {
+body.dark {
     background-color: #c31717;
     color: #ffffff;
 }
 
 /* "Light mode" button styling */
-#light-mode-toggle {
+#dark-mode-toggle {
     cursor: pointer;
     padding: 0.4rem 0.8rem;
     border: 0.1rem solid currentColor;
