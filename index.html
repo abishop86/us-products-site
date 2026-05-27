@@ -87,5 +87,16 @@
                 </div>
             </main>
         </div>
+        <script>
+            const toggleButton = document.getElementById("light-mode-toggle");
+            toggleButton.addEventListener("click", function () {
+                document.body.classList.toggle("light");
+                if (document.body.classList.contains("light")) {
+                    toggleButton.textContent = "Dark mode";
+                } else {
+                    toggleButton.textContent = "Light mode";
+                }
+            });
+        </script>
     </body>
 </html>
