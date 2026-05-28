@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
+/* Borders & Text styling */
 :root {
     --font-heading: "Raleway", raleway;
     --font-body: "Raleway", raleway;
@@ -37,6 +38,7 @@ body {
     --stripe-color: #c31717;
 }
 
+/* Dark mode colors */
 body.dark {
     --color: #3b2799;
     --background-color: #c31717;
@@ -44,7 +46,7 @@ body.dark {
     --stripe-color: #c31717;
 }
 
-/* "Light mode" button styling */
+/* "Dark mode" button styling */
 #dark-mode-toggle {
     cursor: pointer;
     padding: 0.4rem 0.8rem;
@@ -55,6 +57,7 @@ body.dark {
     font-size: 0.8rem;
 }
 
+/* Header variables */
 header {
     background: linear-gradient(135deg, var(--text-alt) 0%, var(--text-alt) 100%);
     color: var(--background-color);
@@ -70,12 +73,14 @@ header .container {
     align-items: center;
 }
 
+/* "Stripe" class styling */
 .stripe {
     background: var(--stripe-color);
     color: var(--background-color);
     padding: var(--space-xs);
 }
 
+/* Universal settings to all of the cards */
 .cards {
     display: flex;
     flex-wrap: wrap;
