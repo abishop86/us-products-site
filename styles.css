@@ -40,10 +40,10 @@ body {
 
 /* Dark mode colors */
 body.dark {
-    --color: #3b2799;
-    --background-color: #c31717;
-    --text-alt: #ffffff;
-    --stripe-color: #c31717;
+    color: var(--background-color);
+    --card-primary: var(--background-color);
+    --text-alt: var(--background-color);
+    --background-color: var(--text-alt);
 }
 
 /* "Dark mode" button styling */
