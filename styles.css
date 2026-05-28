@@ -83,6 +83,10 @@ header .container {
     padding: var(--space-xs);
 }
 
+.hero {
+    text-align: center;
+}
+
 /* Image container styling */
 .hero-image {
     max-width: 80%;
@@ -92,7 +96,6 @@ header .container {
     border-radius: var(--radius-sm);
     overflow: hidden;
     box-shadow: 0 2rem 4rem var(--shadow-color);
-    align: center;
 }
 
 /* Image property styling */
