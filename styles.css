@@ -83,10 +83,6 @@ header .container {
     padding: var(--space-xs);
 }
 
-.hero {
-    text-align: center;
-}
-
 /* Image container styling */
 .hero-image {
     max-width: 80%;
