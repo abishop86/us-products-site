@@ -12,6 +12,14 @@
     --space-xs: 0.5rem;
     --space-sm: 1rem;
     --space-md: 2rem;
+
+    --color: #c31717;
+    --background-color: #ffffff;
+    --text-alt: #3b2799;
+    --box-color: #c2c2c2;
+    --card-primary: #000000;
+    --border-primary: #7a7a7a;
+    --stripe-color: #c31717;
 }
 
 /* Width settings */
@@ -29,21 +37,14 @@ body {
         -apple-system,
         sans-serif;
     line-height: 1.6;
-    color: #c31717;
-    --background-color: #ffffff;
-    --text-alt: #3b2799;
-    --box-color: #c2c2c2;
-    --card-primary: #000000;
-    --border-primary: #7a7a7a;
-    --stripe-color: #c31717;
+   color: var(--color);
+    background-color: var(--background-color);
 }
 
 /* Dark mode colors */
 body.dark {
     color: var(--background-color);
-    --card-primary: var(--background-color);
-    --text-alt: var(--background-color);
-    --background-color: var(--text-alt);
+    background-color: var(--text-alt);
 }
 
 /* "Dark mode" button styling */
