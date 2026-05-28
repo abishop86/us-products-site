@@ -85,13 +85,14 @@ header .container {
 
 /* Image container styling */
 .hero-image {
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 80%;
+    max-height: 80%;
     margin-bottom: var(--space-sm);
     margin-top: var(--space-md);
     border-radius: var(--radius-sm);
     overflow: hidden;
     box-shadow: 0 2rem 4rem var(--shadow-color);
+    align: center;
 }
 
 /* Image property styling */
