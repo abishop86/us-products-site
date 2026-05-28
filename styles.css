@@ -37,7 +37,7 @@ body {
         -apple-system,
         sans-serif;
     line-height: 1.6;
-   color: var(--color);
+    color: var(--color);
     background-color: var(--background-color);
 }
 
@@ -81,6 +81,26 @@ header .container {
     background: var(--stripe-color);
     color: var(--background-color);
     padding: var(--space-xs);
+}
+
+/* Image container styling */
+.hero-image {
+    max-width: 80%;
+    max-height: 80%;
+    margin-bottom: var(--space-sm);
+    margin-top: var(--space-md);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    box-shadow: 0 2rem 4rem var(--shadow-color);
+}
+
+/* Image property styling */
+.hero-image img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
 }
 
 /* Universal settings to all of the cards */
