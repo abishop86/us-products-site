@@ -38,7 +38,7 @@ body {
 }
 
 body.dark {
-    color: #3b2799;
+    --color: #3b2799;
     --background-color: #c31717;
     --text-alt: #ffffff;
     --stripe-color: #c31717;
