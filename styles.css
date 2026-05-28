@@ -45,6 +45,8 @@ body {
 body.dark {
     color: var(--background-color);
     background-color: var(--text-alt);
+    --text-alt: var(--color);
+    --card-primary: var(--background-color);
 }
 
 /* "Dark mode" button styling */
